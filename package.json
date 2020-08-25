@@ -1,0 +1,16 @@
+{
+  "name": "BooksApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "script": {
+    "test": "mocha --watch \"./{,!(node_modules)/**/}*.test.js\""
+  },
+  "dependencies": {
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
+  },
+  "repository": "https://github.com/rafal-szymanko/node_mocha.git",
+  "author": "rafal-szymanko <61496255+rafal-szymanko@users.noreply.github.com>"
+}
